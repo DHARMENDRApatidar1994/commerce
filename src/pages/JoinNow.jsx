@@ -1,6 +1,6 @@
 import React from "react";
 import "./JoinNow.css";
-import JoinNowImg from "../assets/images/JoinNowImg.gif";
+import JoinNowImg from "../assets/Images/JoinNowImg.gif";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 import { useNavigate } from "react-router-dom";

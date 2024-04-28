@@ -1,6 +1,6 @@
 import React from 'react'
 import "./ForgotPas.css"
-import ForgotImg  from "../assets/images/ForgotImg.gif"
+import ForgotImg  from "../assets/Images/ForgotImg.gif"
 import Navbar from '../component/Navbar'
 import Footer from '../component/Footer'
 
