@@ -1,12 +1,12 @@
-import CourseImg1 from "../assets/images/Courses1.jpg"
-import CourseImg2 from "../assets/images/Courses2.jpg"
-import CourseImg3 from "../assets/images/Courses3.jpg"
-import CourseImg4 from "../assets/images/Courses4.jpg"
-import CourseImg5 from "../assets/images/Courses5.jpg"
-import CourseImg6 from "../assets/images/Courses6.jpg"
-import CourseImg7 from "../assets/images/Courses7.jpg"
-import CourseImg8 from "../assets/images/Courses8.jpg"
-import CourseImg9 from "../assets/images/Courses9.jpg"
+import CourseImg1 from "../assets/Images/Courses1.jpg"
+import CourseImg2 from "../assets/Images/Courses2.jpg"
+import CourseImg3 from "../assets/Images/Courses3.jpg"
+import CourseImg4 from "../assets/Images/Courses4.jpg"
+import CourseImg5 from "../assets/Images/Courses5.jpg"
+import CourseImg6 from "../assets/Images/Courses6.jpg"
+import CourseImg7 from "../assets/Images/Courses7.jpg"
+import CourseImg8 from "../assets/Images/Courses8.jpg"
+import CourseImg9 from "../assets/Images/Courses9.jpg"
 
 export 
     const coursesData = [

@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Learn.css"
-import LearnImg1 from "../assets/images/LearnImg1.svg"
-import LearnImg2 from "../assets/images/LearnImg2.svg"
-import LearnImg3 from "../assets/images/LearnImg3.svg"
+import LearnImg1 from "../assets/Images/LearnImg1.svg"
+import LearnImg2 from "../assets/Images/LearnImg2.svg"
+import LearnImg3 from "../assets/Images/LearnImg3.svg"
 
 
 const Learned = () => {

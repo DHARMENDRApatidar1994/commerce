@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Identity.css"
-import IdentityImg from "../assets/images/identityImg.jpeg"
+import IdentityImg from "../assets/Images/identityImg.jpeg"
 
 const Identity = () => {
   return (

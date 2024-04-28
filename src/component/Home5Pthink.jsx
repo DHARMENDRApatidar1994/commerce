@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Home5Pthink.css"
-import PeopleThinkImg from "../assets/images/peoplethink.png"
-import quoteImg from "../assets/images/quote.svg"
+import PeopleThinkImg from "../assets/Images/peoplethink.png"
+import quoteImg from "../assets/Images/quote.svg"
 
 const Home5Pthink = () => {
   return (

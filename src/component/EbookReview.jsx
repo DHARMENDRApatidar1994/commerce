@@ -1,6 +1,6 @@
 import React from 'react'
 import "./EbookReview.css"
-import JohnReviewImg from "../assets/images/JohnReview.jpg"
+import JohnReviewImg from "../assets/Images/JohnReview.jpg"
 
 const EbookReview = () => {
   return (

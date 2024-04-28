@@ -1,11 +1,11 @@
 import React from 'react'
 import "./CoursesOverview.css"
 import CourseThumb from "../assets/images/course_thumbnail.jpg"
-import CourseOverviewJohnImg from "../assets/images/CourseOverviewJohnImg.jpg"
-import CourseOverviewI1 from "../assets/images/CoverviewIcon1.png"
-import CourseOverviewI2 from "../assets/images/CoverviewIcon2.png"
-import CourseOverviewI3 from "../assets/images/CoverviewIcon3.png"
-import CourseOverviewI4 from "../assets/images/CoverviewIcon4.png"
+import CourseOverviewJohnImg from "../assets/Images/CourseOverviewJohnImg.jpg"
+import CourseOverviewI1 from "../assets/Images/CoverviewIcon1.png"
+import CourseOverviewI2 from "../assets/Images/CoverviewIcon2.png"
+import CourseOverviewI3 from "../assets/Images/CoverviewIcon3.png"
+import CourseOverviewI4 from "../assets/Images/CoverviewIcon4.png"
 import Navbar from './Navbar'
 import Footer from './Footer'
 import { useParams } from 'react-router-dom'

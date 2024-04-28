@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Home4One.css"
-import Home4OneImg from "../assets/images/home-4MainImg.png"
-import Home4StartImg from "../assets/images/home-4StartImg.png"
+import Home4OneImg from "../assets/Images/home-4MainImg.png"
+import Home4StartImg from "../assets/Images/home-4StartImg.png"
 
 
 const Home4One = () => {

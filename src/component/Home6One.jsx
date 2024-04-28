@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Home6One.css"
-import Home6OneImg from "../assets/images/home-6One.png"
-import Home6Two1 from "../assets/images/Home6Two1.svg"
-import Home6Two2 from "../assets/images/Home6Two2.svg"
-import Home6Two3 from "../assets/images/Home6Two3.svg"
+import Home6OneImg from "../assets/Images/home-6One.png"
+import Home6Two1 from "../assets/Images/Home6Two1.svg"
+import Home6Two2 from "../assets/Images/Home6Two2.svg"
+import Home6Two3 from "../assets/Images/Home6Two3.svg"
 import NumberSlider from './NumberSlider'
 import { useNavigate } from 'react-router-dom'
 
