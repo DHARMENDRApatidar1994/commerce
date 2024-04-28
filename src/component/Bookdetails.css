@@ -1,0 +1,142 @@
+.bookmain{
+    width: 100%;
+    margin-top: 3vmax;
+}
+.bookmain .bookcontent{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.bookmain .bookcontent .bookdiv{
+    width: 25%;
+}
+.bookmain .bookcontent h6{
+    font-size: 1.4vmax;
+}
+.bookmain .bookcontent .bookline{
+    width: 10%;
+    height: 0.1vmax;
+    background-color: blue;
+
+}
+.bookmain .bookcontent h5{
+    font-size: 1.2vmax;
+    color: gray;
+    margin-top: 1.7vmax;
+}
+.bookmain .bookcontent .bookbtn{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.7vmax;
+  
+
+}
+.bookmain .bookcontent .bookbtn button{
+  color: white;
+  border: none;
+  padding: 0.8vmax 2.8vmax;
+  border-radius: 0.4vmax;
+  background-color: rgb(117,79,254);
+  font-size: 1.3vmax;
+ 
+  
+}
+.summ{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vmax;
+    margin-left: 5vmax;
+}
+.summ h4{
+  font-size: 1.3vmax;
+  
+}
+.bookhr{
+    width: 85%;
+    margin-left: 8vmax;
+}
+.booklast{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 4vmax;
+   flex-direction: column;
+   align-items: center;
+   
+   
+}
+.booklast .bookyou{
+    width: 84%;
+}
+.booklast h5{
+   font-size: 1.4vmax;
+}
+.booklast .bookyou p{
+    color: gray;
+}
+.bookp h6{
+    font-size: 1.3vmax;
+    color: rgb(103,108,125);
+}
+.bookp{
+    margin-top: 0vmax;
+}
+.bookp p{
+    color: rgb(117,124,137);
+    margin-top: -1.3vmax;
+}
+
+
+@media (max-width:600px) {
+    .bookmain .bookcontent .bookdiv{
+        width: 80%;
+    }
+    .bookmain .bookcontent h6{
+        font-size: 3vmax;
+    }
+    .bookmain .bookcontent .bookline{
+        width: 15%;
+    }
+    .bookmain .bookcontent h5{
+        font-size: 2vmax;
+    }
+    .bookmain .bookcontent .bookbtn{
+      width: 90%;
+      margin-top: 3vmax;
+      
+    
+    }
+    .bookmain .bookcontent .bookbtn button{
+      padding: 1vmax 2.8vmax;
+      font-size: 2vmax;
+     
+      
+    }
+    .summ{
+        width: 80%;
+        margin-left: 2vmax;
+    }
+    .summ h4{
+      font-size: 1.9vmax;
+      
+    }
+    .bookhr{
+        width: 75%;
+        margin-left: 5vmax;
+    }
+    .booklast .bookyou{
+        width: 80%;
+    }
+    .booklast h5{
+       font-size: 2.8vmax;
+    }
+    .booklast .bookyou p{
+        font-size: 2vmax;
+    }
+    .bookp h6{
+        font-size: 2.5vmax;
+    }
+}

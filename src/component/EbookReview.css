@@ -1,0 +1,186 @@
+.EbookReview{
+          width: 100%;
+          padding-bottom: 5vmax;
+}
+.EbookReview .Review{
+          width: 100%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-direction: row;
+}
+.EbookReview .Review .ReviewLeft{
+          width: 20%;
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           flex-direction: column;
+}
+.EbookReview .Review .ReviewLeft h5{
+        font-weight: 700;
+        font-size: 1.5vmax;
+}
+.EbookReview .Review .ReviewLeft img{
+          width: 60%;
+          margin-top: 10vmax;
+  }
+  .EbookReview .Review .ReviewRight{
+          width: 60%;
+           display: flex;
+           align-items: flex-start;
+           justify-content: space-between;
+           flex-direction: row;
+}
+.EbookReview .Review .ReviewRight .Rleft{
+          width: 70%;
+           display: flex;
+          margin-top: 5vmax;
+           align-items: flex-start;
+           justify-content: space-evenly;
+           flex-direction: column;
+}
+.EbookReview .Review .ReviewRight .Rleft h6{
+          font-weight: 600;
+          font-size: 1.3vmax;
+}
+.EbookReview .Review .ReviewRight .Rleft p{
+         margin-top: 2vmax;
+         text-decoration: underline;
+}
+.EbookReview .Review .ReviewRight .Rleft .socialMedia {
+          margin-top: 2vmax;
+   }
+   .EbookReview .Review .ReviewRight .Rleft .socialMedia a{
+          text-decoration: none;
+          color: #000;
+        margin: 1vmax 0.3vmax;
+        padding: 0.5vmax 0.5vmax;
+          border-radius: 2px;
+          transition: 0.5s;
+          border: 0.5px solid #00000023;
+   }
+   .EbookReview .Review .ReviewRight .Rleft .socialMedia a:hover{
+         color: #fff;
+         border: none;
+         background-color: rgb(70, 70, 255);
+   }
+.EbookReview .Review .ReviewRight .Rleft .socialMedia a i{
+        font-size: 1.5vmax;
+     
+ }
+.EbookReview .Review .ReviewRight .Rright{
+          width: 30%;
+          margin-top: 5vmax;
+           display: flex;
+           align-items: flex-end;
+           justify-content: center;
+           flex-direction: column;
+}
+.EbookReview .Review .ReviewRight .Rright h5{
+          font-size: 1.7vmax;
+          font-weight: 600;
+}
+.EbookReview .Review .ReviewRight .Rright span{
+          font-size: 3vmax;
+          font-weight: bolder;
+}
+.EbookReview .Review .ReviewRight .Rright p i{
+          color: rgba(0, 0, 0, 0.381);
+}
+
+
+@media (max-width:600px) {
+          .EbookReview .Review{
+                     flex-direction: column;
+          }
+          .EbookReview .Review .ReviewLeft{
+                    width: 90%;
+                     align-items: flex-start;
+          }
+          .EbookReview .Review .ReviewLeft h5{
+                  font-size: 3vmax;
+                  margin-top: 3vmax;
+                  font-weight: 500;
+          }
+          .EbookReview .Review .ReviewLeft img{
+                    width: 100%;
+                    margin-top: 10vmax;
+            } 
+            .EbookReview .Review .ReviewRight{
+                    width: 90%;
+                     flex-direction: column;
+          }
+          .EbookReview .Review .ReviewRight .Rleft{
+                    width: 100%;
+          }
+          .EbookReview .Review .ReviewRight .Rleft h6{
+                    font-size: 2.5vmax;
+          }
+             .EbookReview .Review .ReviewRight .Rleft .socialMedia a{
+                  margin: 2vmax 0.5vmax;
+                  padding: 1vmax 1.5vmax;
+             }
+          .EbookReview .Review .ReviewRight .Rleft .socialMedia a i{
+                  font-size: 2.5vmax;     
+           } 
+           .EbookReview .Review .ReviewRight .Rright{
+                    width: 90%;
+                     align-items: flex-start;
+          }
+          .EbookReview .Review .ReviewRight .Rright h5{
+                    font-size: 3vmax;
+          }
+          .EbookReview .Review .ReviewRight .Rright span{
+                    font-size: 5vmax;
+          }       
+}
+
+@media (min-width:600px) and (max-width:950px) {
+          .EbookReview .Review{
+                     flex-direction: column;
+          }
+          .EbookReview .Review .ReviewLeft{
+                    width: 90%;
+                     align-items: flex-start;
+          }
+          .EbookReview .Review .ReviewLeft h5{
+                  font-size: 3vmax;
+                  margin-top: 3vmax;
+                  font-weight: 500;
+          }
+          .EbookReview .Review .ReviewLeft img{
+                    width: 100%;
+                    margin-top: 10vmax;
+            } 
+            .EbookReview .Review .ReviewRight{
+                    width: 90%;
+                     flex-direction: column;
+          }
+          .EbookReview .Review .ReviewRight .Rleft{
+                    width: 100%;
+          }
+          .EbookReview .Review .ReviewRight .Rleft h6{
+                    font-size: 2.5vmax;
+          }
+             .EbookReview .Review .ReviewRight .Rleft .socialMedia a{
+                  margin: 2vmax 0.5vmax;
+                  padding: 1vmax 1.5vmax;
+             }
+          .EbookReview .Review .ReviewRight .Rleft .socialMedia a i{
+                  font-size: 2.5vmax;     
+           } 
+           .EbookReview .Review .ReviewRight .Rright{
+                    width: 90%;
+                     align-items: flex-start;
+          }
+          .EbookReview .Review .ReviewRight .Rright h5{
+                    font-size: 3vmax;
+          }
+          .EbookReview .Review .ReviewRight .Rright span{
+                    font-size: 5vmax;
+          }
+          .EbookReview .Review .ReviewRight .Rleft p{
+                    font-size: 2vmax;
+           }
+          
+}

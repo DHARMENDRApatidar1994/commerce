@@ -1,0 +1,239 @@
+.ForgotPas{
+          width: 100%;
+          height: auto;
+          padding-top: 7vmax;
+          padding-bottom: 5vmax;
+}
+.ForgotPas .Forgot{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: row;
+}
+.ForgotPas .Forgot .ForgotLeft{
+          width: 50%;
+          height: auto;
+          display: flex;
+          align-items: flex-end;
+          justify-content:flex-end;
+  }
+  .ForgotPas .Forgot .ForgotLeft img{
+          width: 50%;
+          height: auto;
+          margin-right: 5vmax;
+  }
+  .ForgotPas .Forgot .ForgotRight{
+          width: 45%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: column;
+}
+.ForgotPas .Forgot .ForgotRight .Top{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          flex-direction: column;
+}
+.ForgotPas .Forgot .ForgotRight .Top h3{
+          font-size: 2vmax;
+          color: rgba(27, 27, 27, 0.806);
+          font-weight: bolder;
+}
+.ForgotPas .Forgot .ForgotRight .Top h3 span{
+color: rgb(74, 74, 255);
+}
+.ForgotPas .Forgot .ForgotRight .Top p{
+          color: rgba(27, 27, 27, 0.68);
+}
+.ForgotPas .Forgot .ForgotRight .Medium{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          flex-direction: column;
+}
+.ForgotPas .Forgot .ForgotRight .Medium form{
+         width: 60%;
+}
+.ForgotPas .Forgot .ForgotRight .one{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          flex-direction: column;
+          margin-top: 1.3vmax;
+}
+
+.ForgotPas .Forgot .ForgotRight .one label{
+          color: rgba(27, 27, 27, 0.669);
+          font-weight: 600;
+          font-size: 1.1vmax;
+}
+.ForgotPas .Forgot .ForgotRight .one .int{
+         display: flex;
+         width: 100%;
+         justify-content: space-evenly;
+         align-items: center;
+         flex-direction: row;
+         position: relative;
+}
+.ForgotPas .Forgot .ForgotRight .one .int i{
+           position: absolute;
+           margin-right: 24vmax;
+           color: rgba(27, 27, 27, 0.311);
+           font-size: 1.2vmax;
+           margin-top: 1vmax;
+          }
+
+.ForgotPas .Forgot .ForgotRight .one .int input{
+          width: 100%;
+          margin-top: 0.8vmax;
+          border: none;
+          background-color: #b0afaf29;
+          padding: 0.7vmax 2.5vmax;
+          border-radius: 5px;
+}
+
+.ForgotPas .Forgot .ForgotRight .one button{
+          width: 100%;
+          margin-top: 0.8vmax;
+          border: none;
+          background-color: #3c52fdef;
+          border-radius: 5px;
+          color: #fff;
+          padding: 0.7vmax 0vmax;
+          transition: 0.5s;
+
+}
+.ForgotPas .Forgot .ForgotRight .one button:hover{
+          transform: translateY(-0.5vmax);
+
+}
+.ForgotPas .Forgot .ForgotRight .one button a{
+          color: #fff;
+          text-decoration: none;
+ }
+.ForgotPas .Forgot .ForgotRight .one button:hover a{
+         color: #fff;
+}
+
+@media (max-width:600px) {
+          .ForgotPas .Forgot{
+                    flex-direction: column;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+            }
+            .ForgotPas .Forgot .ForgotLeft{
+                      width: 100%;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+              }    
+              .ForgotPas .Forgot .ForgotLeft img{
+                    margin-right: 0vmax;
+                    width: 70%;
+            }  
+            .ForgotPas .Forgot .ForgotRight{
+                    width: 90%;
+          }
+          .ForgotPas .Forgot .ForgotRight .Top {
+           margin-top: 4vmax;
+          }
+          .ForgotPas .Forgot .ForgotRight .Top h3{
+                    font-size: 4vmax;
+          }
+          .ForgotPas .Forgot .ForgotRight .Top p{
+                    font-size: 1.8vmax;
+          }    
+          .ForgotPas .Forgot .ForgotRight .Medium form{
+                   width: 100%;
+          }
+          .ForgotPas .Forgot .ForgotRight .one{
+                    margin-top: 3vmax;
+          }   
+          .ForgotPas .Forgot .ForgotRight .one label{
+                    font-size: 2.5vmax;
+          }
+          .ForgotPas .Forgot .ForgotRight .one .int i{
+                     margin-right: 35vmax;
+                     font-size: 3vmax;
+                    }
+          
+          .ForgotPas .Forgot .ForgotRight .one .int input{
+                    padding: 2vmax 7vmax;
+          }
+          .ForgotPas .Forgot .ForgotRight .one button{
+                    padding: 1.5vmax 0vmax;           
+          }
+          .ForgotPas .Forgot .ForgotRight .one button a{
+                    font-weight: 500;     
+          }
+}
+
+@media (min-width:600px) and (max-width:950px) {
+          .ForgotPas .Forgot{
+                    flex-direction: column;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+            }
+            .ForgotPas .Forgot .ForgotLeft{
+                      width: 100%;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+              }    
+              .ForgotPas .Forgot .ForgotLeft img{
+                    margin-right: 0vmax;
+                    width: 70%;
+            }  
+            .ForgotPas .Forgot .ForgotRight{
+                    width: 90%;
+          }
+          .ForgotPas .Forgot .ForgotRight .Top {
+           margin-top: 4vmax;
+          }
+          .ForgotPas .Forgot .ForgotRight .Top h3{
+                    font-size: 4vmax;
+          }
+          .ForgotPas .Forgot .ForgotRight .Top p{
+                    font-size: 2.5vmax;
+          }    
+          .ForgotPas .Forgot .ForgotRight .Medium form{
+                   width: 100%;
+          }
+          .ForgotPas .Forgot .ForgotRight .one{
+                    margin-top: 3vmax;
+          }   
+          .ForgotPas .Forgot .ForgotRight .one label{
+                    font-size: 2.5vmax;
+          }
+          .ForgotPas .Forgot .ForgotRight .one .int i{
+                     margin-right: 55vmax;
+                     font-size: 3vmax;
+                    }
+          
+          .ForgotPas .Forgot .ForgotRight .one .int input{
+                    padding: 2vmax 7vmax;
+          }
+          .ForgotPas .Forgot .ForgotRight .one button{
+                    padding: 1.5vmax 0vmax;           
+          }
+          .ForgotPas .Forgot .ForgotRight .one button a{
+                    font-weight: 500;  
+                    font-size: 2vmax;   
+          }
+       
+}
+

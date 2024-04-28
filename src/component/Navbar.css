@@ -1,0 +1,31 @@
+.container-fluid img{
+    margin-left: 3vmax;
+}
+.sidebar-menu{
+      /* opacity: 0; */
+    color:black;
+    transform: translateX(82vmax);
+    position: absolute;
+}
+.courses .linkbutton{
+    position: relative;
+    
+}
+
+
+
+
+
+
+
+.sidebar li:hover> .sidebar-menu{
+    opacity: 1;
+    transform: translateX(16.5vmax);
+}
+
+
+@media (max-width:600px) {
+    .container-fluid img{
+        width: 60%;
+    }
+}

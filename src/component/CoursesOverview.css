@@ -1,0 +1,411 @@
+.CoursesOverview{
+          width: 100%;
+          padding-top: 5vmax;
+}
+.CoursesOverview .CoursesOver{
+          width: 100%;
+           flex-direction: column;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+}
+.CoursesOverview .CoursesOver .CourTop{
+          width: 100%;
+          color: #fff;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-image: url("../assets/images/courseOverviewBgImg.png");
+          display: flex;
+          align-items: flex-start;
+          flex-direction: column;
+          justify-content: space-evenly;
+}
+.CoursesOverview .CoursesOver .CourTop .CourTopLeft{
+          width: 60%;
+          margin-left: 5vmax;
+          display: flex;
+          padding: 5vmax;
+          align-items: flex-start;
+          flex-direction: column;
+          justify-content: space-evenly;
+}
+.CoursesOverview .CoursesOver .CourTop .CourTopLeft h3{
+         font-size: 3vmax;
+         font-weight: 600;
+}
+.CoursesOverview .CoursesOver .CourTop .CourTopLeft .atara{
+        display: flex; 
+        margin-top: 2vmax;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+}
+.CoursesOverview .CoursesOver .CourTop .CourTopLeft .atara .one{
+           width: 23%;
+          display: flex; 
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+  }
+  .CoursesOverview .CoursesOver .CourTop .CourTopLeft .atara .one img{
+          width: 20%;
+        border-radius: 50px;
+ }
+ .CoursesOverview .CoursesOver .CourTop .CourTopLeft .atara .one h6{
+       font-size: 1vmax;
+       margin-left: 1vmax;
+ }
+ .CoursesOverview .CoursesOver .CourTop .CourTopLeft .atara .one h5{
+          font-size: 0.9vmax;
+          margin-left: 1vmax;
+    }
+    .CoursesOverview .CoursesOver .CourTop .CourTopLeft .end{
+          display: flex; 
+          width: 100%;
+          flex-direction: row;
+          margin-top: 1vmax;
+          align-items: flex-start;
+          justify-content:flex-start;
+  }
+  .CoursesOverview .CoursesOver .CourTop .CourTopLeft .end h1{
+        font-size: 1vmax;  
+  }
+  .CoursesOverview .CoursesOver .CourTop .CourTopLeft .end h2{
+          font-size: 1vmax;  
+          margin-left: 3vmax;
+    }
+    .CoursesOverview .CoursesOver .CourTop .CourTopLeft .end h2 span{
+          font-size: 0.8vmax;
+          font-weight: lighter;  
+    }
+    .CoursesOverview .CoursesOver .CourTop .CourTopLeft .end h2 small{
+          font-size: 1vmax;  
+    }
+    /* ----- */
+    .CoursesOverview .CoursesOver .CourBtm{
+          width: 100%;
+          display: flex;
+          margin-bottom: 5vmax;
+          margin-top: -3vmax;
+          align-items:center;
+          flex-direction: row;
+          justify-content: center;
+}
+.CoursesOverview .CoursesOver .CourBtm .CourBtmLeft{
+          width: 55%;
+          box-shadow: 2px 2px 5px 2px rgba(197, 197, 197, 0.781);
+          border-radius: 10px;
+          display: flex;
+          align-items:center;
+          background-color: #fff;
+          flex-direction: column;
+          justify-content: space-evenly;
+}
+.CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftTop{
+          width: 90%;
+          padding: 0.5vmax;
+          display: flex;
+          border-bottom: 1px solid #00000031;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+}
+.CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftTop h5 a{
+         text-decoration: none;
+         color: #000;
+        transition: 0.5s;
+}
+.CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftTop h5 a:hover{
+         text-decoration: underline;
+         color: rgb(1, 158, 158);
+ }
+
+
+.CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftBtm{
+        width: 90%;
+        padding: 1vmax;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        flex-direction: column;
+}
+.CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftBtm h2{
+         font-size: 1.7vmax;
+         color: #000;
+  }
+  .CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftBtm p{
+           letter-spacing: 0.5px;
+          color: #000000ba;
+          margin-top: 1vmax;
+   }
+   .CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftBtm h3{
+          font-size: 1.7vmax;
+         color: #000;
+         margin-top: 1vmax;
+  }
+  .CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftBtm h4{
+          font-size: 1.7vmax;
+         color: #000;
+         margin-top: 1vmax;
+  }
+
+  .CoursesOverview .CoursesOver .CourBtm .CourBtmRight{
+          width: 25%;
+          margin-top: -17vmax;
+          box-shadow: 2px 2px 5px 2px rgba(197, 197, 197, 0.781);
+          border-radius: 10px;
+          display: flex;
+          align-items:center;
+          background-color: #fff;
+          flex-direction: column;
+          margin-left: 2vmax;
+          justify-content: space-evenly;
+}
+.CoursesOverview .CoursesOver .CourBtm .CourBtmRight .one{
+          width: 95%;
+          margin-top: 0.5vmax;
+          display: flex;
+          align-items:center;
+          justify-content: center;
+}
+.CoursesOverview .CoursesOver .CourBtm .CourBtmRight .one img{
+          width: 100%;
+          
+}
+.CoursesOverview .CoursesOver .CourBtm .CourBtmRight .three{
+          width: 100%;
+          display: flex;
+          align-items:center;
+          flex-direction: column;
+          justify-content: center;
+}
+.CoursesOverview .CoursesOver .CourBtm .CourBtmRight .three .line{
+          width: 90%;
+          border-bottom: 1px solid #0000005d;
+          display: flex;
+          align-items:center;
+          flex-direction: row;
+          justify-content: space-between;
+}
+.CoursesOverview .CoursesOver .CourBtm .CourBtmRight .three .line h6 img{
+          width: 15%;
+          margin-right: 1vmax;
+}
+.CoursesOverview .CoursesOver .CourBtm .CourBtmRight .three .line p{
+         font-weight: 600;
+         color: #000000c3;
+}
+.CoursesOverview .CoursesOver .CourBtm .CourBtmRight .four{
+          width: 90%;
+          display: flex;
+          margin-top: 1vmax;
+          align-items:center;
+          justify-content: center;
+}
+.CoursesOverview .CoursesOver .CourBtm .CourBtmRight .four button{
+        width: 100%;
+        border-radius: 10px;
+        color: blue;
+        padding: 0.5vmax 2vmax;
+        border: 1px solid blue;
+        margin-bottom: 1vmax;
+        transition: 0.5s;
+}
+.CoursesOverview .CoursesOver .CourBtm .CourBtmRight .four button:hover{
+        background-color: rgb(97, 97, 255);
+        color: #fff;
+        border: none;
+  }
+
+  @media (max-width:600px) {
+        
+          .CoursesOverview .CoursesOver{
+                    justify-content:center;
+          }
+          .CoursesOverview .CoursesOver .CourTop{
+                    width: 100%;
+          }
+          .CoursesOverview .CoursesOver .CourTop .CourTopLeft{
+                    width: 100%;
+                    margin-left: 0vmax;
+                    display: flex;
+                    align-items:center;
+                    justify-content: center;
+          }
+          .CoursesOverview .CoursesOver .CourTop .CourTopLeft h3{
+                    font-size: 4vmax;
+           }
+           .CoursesOverview .CoursesOver .CourTop .CourTopLeft .atara .one{
+                      width: 100%;
+                     flex-direction: column;
+             }
+             .CoursesOverview .CoursesOver .CourTop .CourTopLeft .atara .one img{
+                     width: 50%;
+            }
+            .CoursesOverview .CoursesOver .CourTop .CourTopLeft .atara .one h6{
+                  font-size: 1.5vmax;
+            }
+            .CoursesOverview .CoursesOver .CourTop .CourTopLeft .atara .one h5{
+                     font-size: 1vmax;
+               }
+               .CoursesOverview .CoursesOver .CourTop .CourTopLeft .end{
+                    align-items: center;
+                    justify-content:center;
+            }
+            .CoursesOverview .CoursesOver .CourTop .CourTopLeft .end h1{
+                  font-size: 2vmax;  
+            }
+            .CoursesOverview .CoursesOver .CourTop .CourTopLeft .end h2{
+                    font-size: 2vmax;  
+              }
+              .CoursesOverview .CoursesOver .CourTop .CourTopLeft .end h2 span{
+                    font-size: 2vmax;
+              }
+              .CoursesOverview .CoursesOver .CourTop .CourTopLeft .end h2 small{
+                    font-size: 2vmax;  
+              }
+
+              .CoursesOverview .CoursesOver .CourBtm{
+                    margin-bottom: 5vmax;
+                    margin-top: 20vmax;
+                    flex-direction: column-reverse;
+          }
+          .CoursesOverview .CoursesOver .CourBtm .CourBtmLeft{
+                    width: 100%;
+                    margin-top: 4vmax;
+          }
+          .CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftTop{
+                    width: 90%;
+                    padding: 1vmax;
+          }
+          .CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftTop h5 a{
+                  font-size: 1.7vmax;
+           }
+           .CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftBtm{
+                   width: 90%;
+           }
+           .CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftBtm h2{
+                    font-size: 3vmax;
+             }
+             
+              .CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftBtm h3{
+                     font-size: 3vmax;
+             }
+             .CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftBtm h4{
+                     font-size: 3vmax;
+             }
+             .CoursesOverview .CoursesOver .CourBtm .CourBtmRight{
+                    width: 90%;
+                    margin-top: -17vmax;
+                    margin-left: 0vmax;
+          }
+          .CoursesOverview .CoursesOver .CourBtm .CourBtmRight .one{
+                    width: 95%;
+          }
+          .CoursesOverview .CoursesOver .CourBtm .CourBtmRight .one img{
+                    width: 100%;
+                    
+          }
+        
+          .CoursesOverview .CoursesOver .CourBtm .CourBtmRight .four button{
+                  padding: 1vmax 2vmax;
+          }
+         
+  }
+
+  @media (min-width:600px) and (max-width:950px) {
+        
+          .CoursesOverview .CoursesOver{
+                    justify-content:center;
+          }
+          .CoursesOverview .CoursesOver .CourTop{
+                    width: 100%;
+          }
+          .CoursesOverview .CoursesOver .CourTop .CourTopLeft{
+                    width: 100%;
+                    margin-left: 0vmax;
+                    display: flex;
+                    align-items:center;
+                    justify-content: center;
+          }
+          .CoursesOverview .CoursesOver .CourTop .CourTopLeft h3{
+                    font-size: 4vmax;
+           }
+           .CoursesOverview .CoursesOver .CourTop .CourTopLeft .atara .one{
+                      width: 100%;
+                     flex-direction: column;
+             }
+             .CoursesOverview .CoursesOver .CourTop .CourTopLeft .atara .one img{
+                     width: 50%;
+            }
+            .CoursesOverview .CoursesOver .CourTop .CourTopLeft .atara .one h6{
+                  font-size: 1.5vmax;
+            }
+            .CoursesOverview .CoursesOver .CourTop .CourTopLeft .atara .one h5{
+                     font-size: 1vmax;
+               }
+               .CoursesOverview .CoursesOver .CourTop .CourTopLeft .end{
+                    align-items: center;
+                    justify-content:center;
+            }
+            .CoursesOverview .CoursesOver .CourTop .CourTopLeft .end h1{
+                  font-size: 2vmax;  
+            }
+            .CoursesOverview .CoursesOver .CourTop .CourTopLeft .end h2{
+                    font-size: 2vmax;  
+              }
+              .CoursesOverview .CoursesOver .CourTop .CourTopLeft .end h2 span{
+                    font-size: 2vmax;
+              }
+              .CoursesOverview .CoursesOver .CourTop .CourTopLeft .end h2 small{
+                    font-size: 2vmax;  
+              }
+
+              .CoursesOverview .CoursesOver .CourBtm{
+                    margin-bottom: 5vmax;
+                    margin-top: 20vmax;
+                    flex-direction: column-reverse;
+          }
+          .CoursesOverview .CoursesOver .CourBtm .CourBtmLeft{
+                    width: 100%;
+                    margin-top: 4vmax;
+          }
+          .CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftTop{
+                    width: 90%;
+                    padding: 1vmax;
+          }
+          .CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftTop h5 a{
+                  font-size: 1.7vmax;
+           }
+           .CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftBtm{
+                   width: 90%;
+           }
+           .CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftBtm h2{
+                    font-size: 3vmax;
+             }
+             
+              .CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftBtm h3{
+                     font-size: 3vmax;
+             }
+             .CoursesOverview .CoursesOver .CourBtm .CourBtmLeft .CourBtmLeftBtm h4{
+                     font-size: 3vmax;
+             }
+             .CoursesOverview .CoursesOver .CourBtm .CourBtmRight{
+                    width: 90%;
+                    margin-top: -17vmax;
+                    margin-left: 0vmax;
+          }
+          .CoursesOverview .CoursesOver .CourBtm .CourBtmRight .one{
+                    width: 95%;
+          }
+          .CoursesOverview .CoursesOver .CourBtm .CourBtmRight .one img{
+                    width: 100%;
+                    
+          }
+        
+          .CoursesOverview .CoursesOver .CourBtm .CourBtmRight .four button{
+                  padding: 1vmax 2vmax;
+          }
+         
+  }
