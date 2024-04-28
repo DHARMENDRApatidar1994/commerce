@@ -1,6 +1,6 @@
 import React from 'react'
 import "./CoursesOverview.css"
-import CourseThumb from "../assets/images/course_thumbnail.jpg"
+import CourseThumb from "../assets/Images/course_thumbnail.jpg"
 import CourseOverviewJohnImg from "../assets/Images/CourseOverviewJohnImg.jpg"
 import CourseOverviewI1 from "../assets/Images/CoverviewIcon1.png"
 import CourseOverviewI2 from "../assets/Images/CoverviewIcon2.png"
